@@ -17,6 +17,10 @@ int main()
 }
 
 
+
+
+
+
 //求n的阶乘（不考虑溢出）
 #include <stdio.h>
 int Fac(int n)
@@ -33,6 +37,9 @@ int main()
 	printf("%d\n", ret);
 	return 0;
 }
+
+
+
 
 
 
@@ -70,6 +77,10 @@ int main()
 }
 
 
+
+
+
+
 //计算一个数的每位之和（递归实现）
 //写一个递归函数，输入一个非负整数，返回组成它的数字之和
 int DigitSum(unsigned int num)
@@ -90,6 +101,12 @@ int main()
     int ret = DigitSum(num);
     printf("ret = %d\n",ret);
 }
+
+
+
+
+
+
 
 
 //递归实现n的k次方
